@@ -1,0 +1,20 @@
+Lucky students should receive presents if possible. Now you are provided with a text file that has 20 lucky Banner IDs
+randomly selected for today. Write a program to check if your ID are listed in this file. 
+Examples:
+Input:
+A text file 
+lucky_ids_4.txt:
+001059317
+001086770
+001087316
+Output:
+Yes - if your id is listed
+No - if your id is NOT listed
+Comments:
+… means there are 
+more ids followed
+Hints
+• Correctness: 
+o You can edit the given text file to modify the IDs or add more values. 
+o You can create your own text file and try IDs as positive integer first to simplify the problem. 
+• lucky_ids.txt file is provided.
