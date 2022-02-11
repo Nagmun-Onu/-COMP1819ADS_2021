@@ -1,0 +1,25 @@
+Determine if a number is ”weird.” 
+Given an integer n, perform the following conditional actions:
+• If n is odd, print Weird
+• If n is even and in the inclusive range of 2 to 9, print Not Weird
+• If n is even and in the inclusive range of 10 to 30, print Weird
+• If n is even and greater than 30, print Not Weird
+Input Format
+• A single line containing a positive integer n.
+Constraints
+• 1 <= n <= 100
+Output Format
+• Print Weird if the number is weird. Otherwise, print Not Weird
+Examples
+1)
+Input Output Explanation
+input: 3 
+output: Weird 
+explanation: n is odd and odd numbers are weird, so print Weird.
+2)
+input: 34 
+output: Not Weird 
+explanation: n > 30 and is even, so it is not weird.
+Hints
+• use nested if else as you noticed. 
+• Correctness: Compare your answer with inputs of 2, 9, 10, 30, 100
