@@ -1,0 +1,39 @@
+import time
+
+
+def only_2_closest_winner(my_list, winner):
+    if winner in my_list:
+        my_list.remove(winner)
+    count = 0
+    while count < 2:
+        if winner > my_list[0]:
+            diff = winner - my_list[0]
+            closest_winner = my_list[0]
+        else:
+            diff = my_list[0] - winner
+            closest_winner = my_list[0]
+        for i in my_list:
+            if winner > i:
+                if winner - i < diff:
+                    diff = winner - i
+                    closest_winner = i
+            elif i - winner < diff:
+                diff = i - winner
+                closest_winner = i
+        print(closest_winner)
+        my_list.remove(closest_winner)
+        count = count + 1
+
+
+def test_run():
+    s = []
+    f = open("lucky.txt", "r")
+    for line in f:
+        s.append(int(line))
+    start = time.time()
+    only_2_closest_winner(s, int("001066452"))
+    end = time.time()
+    print("The time taken is ", end-start, "seconds.")
+
+
+test_run()
