@@ -1,0 +1,14 @@
+Something goes wrong. You are notified that there is at least one duplicated id in the file. Write a program to detect 
+the duplicated value in the file. 
+Examples
+Input 
+1 2 3 4 5 3 7 8
+Output
+3 
+Comment
+Ids are provided in a text file as in 
+lucky_ids_4.txt
+Extra
+• You might have to edit the file to make a duplication. 
+• Is this algorithm is good for one million records? How can I improve this algorithm? 
+• Do it without sorting
