@@ -1,5 +1,5 @@
 # @author: Nagmun Nahar Onu
-# version 1
+# version 0
 def my_minmax(sequence):
     # set the first element of the sequence as minimum and maximum value
     my_min = sequence[0]
