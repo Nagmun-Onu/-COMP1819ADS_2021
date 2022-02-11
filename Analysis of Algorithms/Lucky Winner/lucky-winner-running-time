@@ -1,0 +1,22 @@
+import time
+
+
+def lucky_winner(check_id):
+    f = open("lucky.txt", "r")
+    for my_id in f:
+        if check_id in my_id:
+            print(my_id)
+            print("yes")
+            return
+    print("No")
+    return
+
+
+def test_run(check_id):
+    start = time.time()
+    lucky_winner(check_id)
+    end = time.time()
+    print("The time taken is ", end-start, "seconds.")
+
+
+test_run("0011672ccc")
