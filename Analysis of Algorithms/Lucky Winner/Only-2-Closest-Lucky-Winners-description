@@ -1,0 +1,17 @@
+Now it is even harder. I can still use the provided text file that has 20 lucky Banner ids randomly selected for today. 
+My task is to write a program to output the two winning values that is closest to a winning number without rearranging the list.
+Examples
+Input
+1 6 3 8 9 10 7 4
+5
+Output:
+6 4 
+Comment:
+List of ids on the first line, and the winning 
+number is 5 on the 2nd line. Values 6 and 4 
+are the winning values, as they are 
+“closest” to value 5. 
+
+Extra
+ Is this algorithm is good for one million records? 
+ How can I improve this algorithm?
