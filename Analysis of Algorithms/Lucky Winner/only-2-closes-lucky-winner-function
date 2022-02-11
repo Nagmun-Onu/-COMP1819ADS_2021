@@ -1,0 +1,21 @@
+def only_2_closest_winner(my_list, winner):
+    my_list.remove(winner)
+    count = 0
+    closest_winner = winner
+    while count < 2:
+        diff = 0
+        for i in my_list:
+            if int(winner) - int(i) < diff:
+                diff = int(winner) - int(i)
+                if closest_winner != i:
+                    closest_winner = i
+        print(closest_winner)
+        my_list.remove(closest_winner)
+        count = count + 1
+
+
+s = []
+f = open("lucky.txt", "r")
+for line in f:
+    s.append(line)
+only_2_closest_winner(s, "001019441")
