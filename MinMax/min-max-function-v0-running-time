@@ -1,6 +1,6 @@
 # this function calculate my_minmax function running time
 # @author: Nagmun Nahar Onu
-# version 1
+# version 0
 import time
 
 
