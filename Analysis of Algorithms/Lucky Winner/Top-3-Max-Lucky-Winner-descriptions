@@ -1,0 +1,13 @@
+Now it is a bit harder. I can still use the provided text file that has 20 lucky Banner ids randomly selected for today. 
+Write a program to output the top 3 max ids without rearranging the list (without sorting). 
+Examples
+Input:
+1 6 3 8 9 10 7 4 
+Outputs:
+10 9 8 
+Comment:
+Ids are Banner IDs provided in the lucky_ids_4.txt, each ids in its own line
+Extra
+• Did you use any sorting method? 
+• Efficiency: Is my algorithm is good for one million records? 
+* How can I improve this algorithm? 
