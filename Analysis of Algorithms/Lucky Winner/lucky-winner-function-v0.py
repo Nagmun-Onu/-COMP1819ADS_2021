@@ -1,11 +1,12 @@
-# replace with file-name
-f = open("lucky.txt", "r")
-flag = 0
-for my_id in f:
-  # you can replace "0001167255" with any id
-    if "001167255" in my_id:
-        print(my_id)
-        print("yes")
-        flag = 1
-if flag == 0:
+def lucky_winner(check_id):
+    f = open("lucky.txt", "r")
+    for my_id in f:
+        if check_id in my_id:
+            print(my_id)
+            print("yes")
+            return
     print("No")
+    return
+
+
+lucky_winner("001167255")
