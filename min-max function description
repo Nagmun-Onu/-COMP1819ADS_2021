@@ -1,0 +1,21 @@
+# A short Python function, minmax(sequence), 
+# that takes a sequence of one or more numbers, 
+# and returns the smallest and largest numbers, 
+# in the form of a tuple of length two.
+# Given Input 
+[1, 2, 3, 5] 
+# Expected Output
+(1, 5)
+# Given Input 
+[0, 1, -2] 
+# Expected Output
+(-2, 1)
+# Given Input 
+[3] 
+# Expected Output
+(3, 3)
+# • Correctness: is output in the form of a Python tuple?
+# • Efficiency: 
+# NOT to use the built-in functions min or max in implementing solution 
+# Is this faster than the built-in functions one. 
+
