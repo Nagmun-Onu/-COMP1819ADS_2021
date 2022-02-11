@@ -1,0 +1,14 @@
+def duplicate_banner_id(my_list):
+    for i in range(len(my_list)):
+        for j in range(i+1, len(my_list)):
+            if my_list[i] == my_list[j]:
+                return my_list[i]
+    return "Not found"
+
+
+s = []
+f = open("lucky.txt", "r")
+for line in f:
+    s.append(int(line))
+result = duplicate_banner_id(s)
+print(result)
