@@ -1,0 +1,25 @@
+import time
+
+
+def weird_or_not(n):
+    if n % 2 != 0 or n in range(10, 30):
+        print("Weird")
+    elif n in range(2, 9) or n > 30:
+        print("Not Weird")
+
+
+def test_run(n):
+    start = time.time()
+    weird_or_not(n)
+    end = time.time()
+    print("The time taken is ", end - start, "seconds.")
+
+
+# driver code
+test_run(3)
+test_run(34)
+test_run(2)
+test_run(9)
+test_run(10)
+test_run(30)
+test_run(100)
